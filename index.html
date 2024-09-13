@@ -11,32 +11,48 @@
 
   <body class="flex-column">
 
-    <div class="root">
-      <div class="About">About</div>
-      <div class="Library">Libray</div>
-      <div class="BestSeller">Bestseller</div>
-      <div class="Contact">Contact</div>
-      <div class="GetHelp">Get Help</div>
-      <h2 class="title">Read a book to open your mind</h2>
-      <div class="color"></div>
-      <div class="button">Login</div>
-      <div class="color1"></div>
-      <div class="button2">Register</div>
-      <img class="image" src="assets/image/book.png" alt="alt text" />
-      <div class="info5_box">
-        <span class="info5">
-          <span class="info5_span0">Library</span>
-          <span class="info5_span1">/earn</span>
-        </span>
-      </div>
-      <div class="Home">Home</div>
+    <section id="Home">
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Library">Library</a></li>
+                <li><a href="#BestSeller">BestSeller</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Get Help">Get Help</a></li>
+            </ul>
+        </nav>
+
+        <div class="button">
+            <a href="#" class="btn btn-primary">Login</a>
+            <a href="#" class="btn btn-primary">Register</a>
+        </div>
+    
+    <div class="main">
+        <div class="main-text">
+            <h1>Read a book to open your mind</h1>
+        </div>
+        <div class="main-image">
+            <img src="assets/image/book.png">
+        </div>
     </div>
+    </section>
 
   </body>
 
-</html>
 
     </section>
+
+     <!--About-->
+     <section id="About" class="About">
+        <div class="container">
+            <h1><span>Meet</span>Library/earn</h1>
+            <img src="assets/image/imagelibrary/image.png">
+            <p>“Books open doors to endless adventures 
+                and knowledge. At LibraryLearn, every page is a chance to explore, learn, and grow. Let’s dive into the joy of reading together!”</p>
+        </div>
+    </section>
+       
 
     <!--Library-->
 
@@ -83,16 +99,71 @@
         </div>
     </section>
 
-    <!--About-->
-    <section id="about" class="about">
-        <div class="container">
-            <h1><span>Meet</span>Library/earn</h1>
-            <img src="assets/image/imagelibrary/image.png">
-            <p>“Books open doors to endless adventures 
-                and knowledge. At LibraryLearn, every page is a chance to explore, learn, and grow. Let’s dive into the joy of reading together!”</p>
+    <!--BestSeller-->
+
+    <section id="BestSeller" class="BestSeller">
+        <div class="BestSeller">
+            <div class="BestSeller-list">
+                <div class="product">
+                    <img src="assets/image/imagebestseller/jktsebelumpagi.png" alt="Jakarta Sebelum Pagi">
+                    <h3>Jakarta Sebelum Pagi</h3>
+                </div>
+                <div class="product">
+                    <img src="assets/image/imagebestseller/malioboro.png" alt="Malioboro The Midnight">
+                    <h3>Malioboro The Midnight</h3>
+                </div>
+                <div class="product">
+                    <img src="assets/image/imagebestseller/pulang.png" alt="Pulang">
+                    <h3>Pulang</h3>
+                </div>
+                <div class="product">
+                    <img src="assets/image/imagebestseller/hujan.png" alt="Hujan">
+                    <h3>Hujan</h3>
+                </div>
+                <div class="product">
+                    <img src="assets/image/imagebestseller/matahari.png" alt="Matahari">
+                    <h3>Matahari</h3>
+                </div>
+                <div class="product">
+                    <img src="assets/image/imagebestseller/dian1991.png" alt="Dilan 1991">
+                    <h3>Dilan 1991</h3>
+                </div>
+                <div class="product">
+                    <img src="assets/image/imagebestseller/dilan.png" alt="Dilan 1990">
+                    <h3>Dilan 1990</h3>
+                </div>
+                <div class="product">
+                    <img src="assets/image/imagebestseller/milea.png" alt="Milea Suara dari Dilan">
+                    <h3>Milea Suara dari Dilan</h3>
+                </div>
+            </div>
         </div>
     </section>
-       
+   
+    <!--Contact-->
 
-    </div>
+    <section id="Contact" class="Contact">
+
+        <h2>Contact</h2>
+        <div class="Contact">
+            <form action="#">
+                <div class="input">
+                    <p>Nama</p>
+                    <input type="text" placeholder="Nama">
+                </div>
+
+                <div class="input">
+                    <p>Email</p>
+                    <input type="text" placeholder="Email">
+                </div>
+
+                <div class="input">
+                    <p>Catatan</p>
+                    <input type="text" placeholder="Catatan">
+                </div>
+
+            </form>
+        </div>
+    </section>
 </body>
+</html>

@@ -175,7 +175,7 @@ body::after {
 
 #Library {
   padding: 55px;
-  background-color: #f0f0f0; /* Background section */
+  background-color: #f0f0f0; 
 }
 
 .book_box {
@@ -187,13 +187,13 @@ body::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px; /* Jarak antar item */
+  gap: 20px; 
 }
 
 .product-item {
   background-color: #fff;
-  width: calc(25% - 20px); /* Mengatur lebar item agar 4 item berjejer dalam satu baris */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow untuk box */
+  width: calc(25% - 20px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   text-align: center;
   border-radius: 8px;
   transition: transform 0.3s ease;
@@ -232,7 +232,7 @@ body::after {
 
 #BestSeller {
   padding: 55px;
-  background-color: #f7f7f7; /* Background section */
+  background-color: #f7f7f7;
 }
 
 .BestSeller {
@@ -244,13 +244,13 @@ body::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 20px; /* Jarak antar item */
+  gap: 20px; 
 }
 
 .product {
   background-color: #F78888;
-  width: calc(25% - 20px); /* Mengatur lebar item agar 4 item berjejer dalam satu baris */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow untuk box */
+  width: calc(25% - 20px); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   text-align: center;
   border-radius: 8px;
   transition: transform 0.3s ease;
@@ -286,6 +286,7 @@ body::after {
   }
 }
 
+/*contact*/
 #Contact {
   padding: 150px;
   background-color: #ffffff;
@@ -299,14 +300,13 @@ body::after {
   margin-bottom: 30px;
 }
 
-/* Styling box form Contact */
 .Contact {
-  background-color: #f06e6e; /* Warna background box */
+  background-color: #f06e6e; 
   padding: 30px;
   max-width: 600px;
   margin: 0 auto;
-  border-radius: 10px; /* Membuat sudut melengkung */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow untuk box */
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .Contact form {
@@ -326,11 +326,10 @@ body::after {
 }
 
 .input input[type="text"]:focus {
-  border-color: #4CAF50; /* Border berubah warna saat fokus */
+  border-color: #C83838; 
   outline: none;
 }
 
-/* Styling tombol submit */
 .btn {
   text-align: center;
 }
@@ -338,7 +337,7 @@ body::after {
 .submit-btn {
   display: inline-block;
   padding: 12px 30px;
-  background-color: #4CAF50;
+  background-color: #f06e6e;
   color: white;
   font-size: 16px;
   text-align: center;
@@ -348,7 +347,7 @@ body::after {
 }
 
 .submit-btn:hover {
-  background-color: #45a049; /* Background berubah saat hover */
+  background-color: #cc0000; 
 }
 
 /*Footer*/
@@ -356,7 +355,7 @@ body::after {
 footer{
   width: 100%;
   padding: 30px 0 0 20px;
-  background: #C83838;
+  background: #F78888;
 }
 
 footer .footer_main{
@@ -376,15 +375,6 @@ footer .footer_main .footer_tag h2{
 
 footer .footer_main .footer_tag p{
   margin: 10px 0;
-}
-
-footer .footer_main .footer_tag i{
-  margin: 0 5px;
-  cursor: pointer;
-}
-
-footer .footer_main .footer_tag i:hover{
-  color: #fac031;
 }
 
 footer .end{

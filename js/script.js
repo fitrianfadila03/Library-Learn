@@ -16,7 +16,7 @@ loginForm.addEventListener("submit", function (event) {
   if (email === "rosynately@gmail.com" && password === "123456") {
     alert("Login successful!");
 
-    window.location.href = "home.html";
+    window.location.href = 'index.html';
   } else {
     alert("Invalid email or password. Please try again.");
   }

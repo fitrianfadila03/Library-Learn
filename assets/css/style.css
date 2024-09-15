@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+section nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
+nav {
+  background-color: #ffffff; 
+  padding: 20px 0; 
+}
+
+nav ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  justify-content: center; 
+}
+
+nav ul li {
+  margin: 0 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(2, 2, 2); 
+  font-size: 18px;
+  padding: 10px 15px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s; 
+}
+
+nav ul li a.active {
+  background-color: #ff0000; 
+  color: white; 
+}
+
+.main-text h1{
+  font-size: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  margin: 20px;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+.login-btn {
+  background-color: #ff0000; 
+}
+.login-btn:hover {
+  background-color: #C83838; 
+  transform: scale(1.05); 
+}
+.Regis-btn {
+  background-color: #ff0000; 
+}
+.Regis-btn:hover {
+  background-color: #cc0000; 
+  transform: scale(1.05); 
+}
+
+.main-image {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 70vh;           
+  margin: 0;               
+  padding: 0;            
+}
+
+.main-image img {
+  max-height: 100%;        
+  max-width: 100%;       
+  height: auto;          
+  width: auto;             
+}
+
+
+.About{
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+}
+
+.About .About_main{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.About .About_main .image img{
+  width: 400px;
+  position: relative;
+  top: 130px;
+}
+
+.About .About_main .Text h1 span{
+  color: #111111;
+  margin-right: 10px;
+  font-family: inika;
+  font-size: 20px;
+}
+
+.About .About_main .Text h1{
+  position: absolute;
+  left: 10px;
+  font-size: 30;
+  padding: 10px;
+  top: 750px;
+
+}
+
+.About .About_main .prg p{
+  font-size: 16;
+  text-align: center;
+  margin-right: 30px;
+  line-height: 22px;
+}

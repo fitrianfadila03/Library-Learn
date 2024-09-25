@@ -216,17 +216,17 @@ nav ul li a.active {
 
 .star {
   font-size: 50px;
-  color: #ccc; /* Default star color (gray) */
+  color: #ccc;
   cursor: pointer;
 }
 
 .star:hover,
 .star:hover ~ .star {
-  color: #ffcc00; /* Change color on hover to yellow */
+  color: #ffcc00; 
 }
 
 .selected {
-  color: #ffcc00; /* Change selected star color to yellow */
+  color: #ffcc00; 
 }
 
 #rating-value {
@@ -404,7 +404,7 @@ footer {
 }
 
 .selected {
-  color: #ff2075;
+  color: #eff300;
 }
 
 #rating-value {

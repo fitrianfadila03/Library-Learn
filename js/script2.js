@@ -12,7 +12,7 @@ document.getElementById("signInButton").addEventListener("click", function () {
       alert("Passwords do not match.");
       return;
     }
+    window.location.href = 'index.html';
   
     alert("Sign-in successful!");
-    window.location.href = 'index.html';
   });

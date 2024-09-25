@@ -8,13 +8,10 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-  <body class="flex-column">
-
-    <section id="Home">
+    <section>
         <nav>
             <ul>
-                <li><a href="#Home">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Library">Library</a></li>
                 <li><a href="#BestSeller">BestSeller</a></li>
@@ -23,26 +20,6 @@
                 <li><a href="#Get Help">Get Help</a></li>
             </ul>
         </nav>
-
-    
-    <div class="main">
-        <div class="main-text">
-            <h1>Read a book to open your mind</h1>
-        </div>
-        <div class="button">
-            <a href="login.html" class="login-btn">Login</a>
-            <a href="#" class="Regis-btn">Register</a>
-        </div>
-        <div class="main-image">
-            <img src="assets/image/book.png">
-        </div>
-    </div>
-
-    </section>
-
-  </body>
-
-
     </section>
 
      <!--About-->
@@ -152,6 +129,7 @@
             </div>
         </div>
     </section>
+
    
     <!--Contact-->
 
@@ -184,29 +162,39 @@
 
     <footer>
         <div class="footer_main">
-
-            <div class="footer_tag">
-                
-            </div>
-
+    
             <div class="footer_tag">
                 <h2>Contact</h2>
                 <p>+6295756789</p>
                 <p>Library/Learn@gmail.com</p>
             </div>
-
+    
             <div class="footer_tag">
                 <h2>Our Service</h2>
-                <p>Recomendation</p>
+                <p>Recommendation</p>
                 <p>New Book</p>
                 <p>BestSeller Book</p>
             </div>
-
+    
+            <!-- Rating section -->
+            <div class="footer_tag rating-section">
+                <h2>Rating Website</h2>
+                <div class="rating-container">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+                <p id="rating-value">Rating: 0</p>
+            </div>
+    
         </div>
-
-        <p class="end">Presentation<span></i>LibraryLearn</span></p>
-
+    
+        <p class="end">Presentation <span>LibraryLearn</span></p>
+    
+        <script src="js/rating.js"></script>
     </footer>
-
+    
 </body>
 </html>

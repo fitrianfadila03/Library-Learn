@@ -7,6 +7,10 @@ section nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 1px;
   background: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   z-index: 1000;
@@ -48,28 +52,6 @@ nav ul li a.active {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-body::before {
-  content: "";
-  position: absolute;
-  top: 250px;
-  left: -150px;
-  width: 250px;
-  height: 250px;
-  background-color: #d54445;
-  border-radius: 50%;
-}
-
-body::after {
-  content: "";
-    position: absolute;
-    bottom: 100px;
-    right: -150px;
-    width: 250px;
-    height: 250px;
-    background-color: #d54445;
-    border-radius: 50%;
 }
 
 .button {
@@ -152,7 +134,7 @@ body::after {
   left: 10px;
   font-size: 70px;
   padding: 20px;
-  top: 750px;
+  top: 30px;
   color: #C83838;
 
 }
@@ -228,6 +210,29 @@ body::after {
   }
 }
 
+.rating-container {
+  display: inline-block;
+}
+
+.star {
+  font-size: 50px;
+  color: #ccc; /* Default star color (gray) */
+  cursor: pointer;
+}
+
+.star:hover,
+.star:hover ~ .star {
+  color: #ffcc00; /* Change color on hover to yellow */
+}
+
+.selected {
+  color: #ffcc00; /* Change selected star color to yellow */
+}
+
+#rating-value {
+  margin-top: 10px;
+  font-size: 20px;
+}
 /*BestSeller*/
 
 #BestSeller {
@@ -351,42 +356,71 @@ body::after {
 }
 
 /*Footer*/
-
-footer{
-  width: 100%;
-  padding: 30px 0 0 20px;
-  background: #F78888;
-}
-
-footer .footer_main{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-footer .footer_main .footer_tag{
+footer {
+  background-color: #f06e6e;
+  color: white;
+  padding: 20px 0;
   text-align: center;
 }
 
-footer .footer_main .footer_tag h2{
-  color: #000;
-  margin-bottom: 25px;
-  font-size: 30px;
-}
-
-footer .footer_main .footer_tag p{
-  margin: 10px 0;
-}
-
-footer .end{
+.footer_main {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 15px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-footer .end span{
-  color: #F78888;
-  margin-left: 10px;
+.footer_tag {
+  flex: 1;
+  margin: 20px;
+}
+
+.footer_tag h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.rating-section {
+  text-align: left;
+}
+
+.rating-container {
+  margin-top: 10px;
+}
+
+/* Style for stars */
+.star {
+  font-size: 30px;
+  color: #ccc;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.star:hover,
+.star:hover ~ .star {
+  color: #eff300;
+}
+
+.selected {
+  color: #ff2075;
+}
+
+#rating-value {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.end {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.end span {
+  font-weight: bold;
+  color: #ff009d;
 }
 
 
